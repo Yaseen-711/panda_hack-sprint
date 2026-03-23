@@ -213,7 +213,7 @@ function App() {
         </div>
         <div className="user-detail balance-box">
           <Wallet size={20} color="#10b981" />
-          <span className="balance">{currentUser.balance.toFixed(2)} SHM <span style={{fontSize:'0.8rem', color:'var(--text-muted)'}}>(Simulated)</span></span>
+          <span className="balance">{currentUser.balance.toFixed(2)} SHM <span style={{fontSize:'0.8rem', color:'var(--text-muted)'}}></span></span>
         </div>
         
         {realBalance !== null && (
