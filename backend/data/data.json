@@ -1,0 +1,115 @@
+{
+  "users": [
+    {
+      "username": "user1",
+      "password": "1234",
+      "balance": 1,
+      "address": "0x29CF0Fa1b9D54DB84DC441FDe36c87F4cCE6C059",
+      "contacts": [
+        {
+          "name": "user2",
+          "address": "0xB306e6F12AE85CeE685690eEE482C8EE24AB8607"
+        }
+      ]
+    },
+    {
+      "username": "user2",
+      "password": "1234",
+      "balance": 0.9999999999999998,
+      "address": "0xB306e6F12AE85CeE685690eEE482C8EE24AB8607",
+      "contacts": []
+    }
+  ],
+  "transactions": [
+    {
+      "id": "1774256598541",
+      "timestamp": "2026-03-23T09:03:18.541Z",
+      "from": "user2",
+      "to": "0x29cf0fa1b9d54db84dc441fde36c87f4cce6c059",
+      "amountSHM": 0.8,
+      "amountINR": 8,
+      "currency": "SHM",
+      "txHash": "0xaf67b160e1e51",
+      "status": "completed",
+      "userInput": "transfer 0.8 shm to 0x29CF0Fa1b9D54DB84DC441FDe36c87F4cCE6C059",
+      "action": "transfer",
+      "summary": "Sending 0.8 SHM to 0x29cf0fa1b9d54db84dc441fde36c87f4cce6c059",
+      "explanation": "This is a new recipient. Please verify the wallet address before sending funds."
+    },
+    {
+      "id": "1774255643507",
+      "timestamp": "2026-03-23T08:47:23.507Z",
+      "from": "user2",
+      "to": null,
+      "amountSHM": null,
+      "amountINR": null,
+      "currency": "SHM",
+      "txHash": null,
+      "status": "completed",
+      "userInput": "CHECK MY BALANCE",
+      "action": "balance",
+      "summary": "Your current balance is 1.7999999999999998 SHM (~18 INR)",
+      "explanation": "Using fast local parsing rules for efficiency."
+    },
+    {
+      "id": "1774255609078",
+      "timestamp": "2026-03-23T08:46:49.078Z",
+      "from": "user1",
+      "to": "user2",
+      "amountSHM": 0.2,
+      "amountINR": 2,
+      "currency": "INR",
+      "txHash": "0xf79d364d28c9f",
+      "status": "completed",
+      "userInput": "TRANSFER 2 INR TO USER2",
+      "action": "transfer",
+      "summary": "Sending 2 INR to user2",
+      "explanation": "This is a new recipient. Please verify the wallet address before sending funds."
+    },
+    {
+      "id": "1774254937610",
+      "timestamp": "2026-03-23T08:35:37.610Z",
+      "from": "user1",
+      "to": "0xb306e6f12ae85cee685690eee482c8ee24ab8607",
+      "amountSHM": 0.2,
+      "amountINR": 2,
+      "currency": "SHM",
+      "txHash": "0xe7bc3fa070881",
+      "status": "completed",
+      "userInput": "transfer 0.2 shm to 0xB306e6F12AE85CeE685690eEE482C8EE24AB8607",
+      "action": "transfer",
+      "summary": "Sending 0.2 SHM to 0xb306e6f12ae85cee685690eee482c8ee24ab8607",
+      "explanation": "This is a new recipient. Please verify the wallet address before sending funds."
+    },
+    {
+      "id": "1774254881511",
+      "timestamp": "2026-03-23T08:34:41.511Z",
+      "from": "user1",
+      "to": "0xb306e6f12ae85cee685690eee482c8ee24ab8607",
+      "amountSHM": 1,
+      "amountINR": 10,
+      "currency": "INR",
+      "txHash": "0x26446975bb0b6",
+      "status": "completed",
+      "userInput": "transfer 10 inr to 0xB306e6F12AE85CeE685690eEE482C8EE24AB8607",
+      "action": "transfer",
+      "summary": "Sending 10 SHM to 0xb306e6f12ae85cee685690eee482c8ee24ab8607",
+      "explanation": "This is a new recipient. Please verify the wallet address before sending funds."
+    },
+    {
+      "id": "1774254743532",
+      "timestamp": "2026-03-23T08:32:23.532Z",
+      "from": "user2",
+      "to": "0x29cf0fa1b9d54db84dc441fde36c87f4cce6c059",
+      "amountSHM": 0.6,
+      "amountINR": 6,
+      "currency": "INR",
+      "txHash": "0x11c0091011ce2",
+      "status": "completed",
+      "userInput": "send 6 INR to 0x29CF0Fa1b9D54DB84DC441FDe36c87F4cCE6C059",
+      "action": "transfer",
+      "summary": "Sending 6 SHM to 0x29cf0fa1b9d54db84dc441fde36c87f4cce6c059",
+      "explanation": "This is a new recipient. Please verify the wallet address before sending funds."
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+# -------------------------------------------------
+# General OS / editor / IDE artefacts
+# -------------------------------------------------
+# Windows system files
+Thumbs.db
+Desktop.ini
+
+# macOS / Linux artefacts (just in case)
+.DS_Store
+*.swp
+*.swo
+*~
+
+# VS Code / JetBrains / other editors
+.vscode/
+.idea/
+*.code-workspace
+*.sublime-workspace
+*.sublime-project
+
+# -------------------------------------------------
+# Node / npm artefacts (both backend & frontend)
+# -------------------------------------------------
+# Dependency directories
+**/node_modules/
+**/dist/
+**/build/
+**/.next/
+**/.cache/
+**/.parcel-cache/
+**/.vite/
+**/.nuxt/
+**/out/
+
+# Optional lockfiles (if you prefer not to version them)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# -------------------------------------------------
+# Environment / secret files
+# -------------------------------------------------
+# Backend env file (contains API keys, ports, etc.)
+backend/.env
+backend/.env.example   # keep the example if you want, but ignore the real one
+
+# Frontend env (if you ever add one)
+wallet-ui/.env
+wallet-ui/.env.local
+wallet-ui/.env.development
+wallet-ui/.env.production
+
+# -------------------------------------------------
+# Build artefacts / generated files
+# -------------------------------------------------
+# Vite / React dev server caches
+wallet-ui/.vite/
+wallet-ui/.cache/
+wallet-ui/.parcel-cache/
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# -------------------------------------------------
+# Miscellaneous generated files
+# -------------------------------------------------
+# Temporary files created by scripts or editors
+tmp/
+temp/
+*.tmp
+*.temp
+
+# OS temporary folders
+$RECYCLE.BIN/
+*.bak
+*.old
+
+# -------------------------------------------------
+# IDE specific project files (if any)
+# -------------------------------------------------
+*.iml
+*.project
+*.classpath
+
+# -------------------------------------------------
+# Optional: ignore generated documentation / screenshots
+# -------------------------------------------------
+docs/
+*.png
+*.jpg
+*.jpeg
+*.svg
